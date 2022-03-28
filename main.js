@@ -10,9 +10,7 @@ addtobutton.addEventListener('click', function(){
     inputfield.value = "";
 
     paragraph.addEventListener('click', function(){
-        paragraph.style.textDecoration = "line-through";
-        paragraph.style.color = "red";
-        paragraph.style.fontFamily = 'cursive';
+        paragraph.classList.add('paragraph-complete');
     })
 
     paragraph.addEventListener('dblclick', function(){
