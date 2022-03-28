@@ -29,6 +29,7 @@ html, body {
     margin-top: 25px;
 }
 
+/* for creating space properties */
 .paragraph-styling {
     margin: 0;
     cursor: pointer;
@@ -36,6 +37,7 @@ html, body {
     color: red;
 }
 
+/* for click event properties */
 .paragraph-complete {
     color: green;
     font-size: 20px;
