@@ -9,10 +9,12 @@ addtobutton.addEventListener('click', function(){
     todocontainer.appendChild(paragraph);
     inputfield.value = "";
 
+    // for the click functionality over the item clicked
     paragraph.addEventListener('click', function(){
         paragraph.classList.add('paragraph-complete');
     })
 
+    // for the double click functionality for the item to remove
     paragraph.addEventListener('dblclick', function(){
         todocontainer.removeChild(paragraph);
     })
