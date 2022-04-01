@@ -17,6 +17,7 @@ html, body {
     vertical-align: middle;
 }
 
+/* this is ID which is different then class */
 #addtodo {
     height: 50px;
     width: 50px;
