@@ -10,7 +10,7 @@ addtobutton.addEventListener('click', function(){
     todocontainer.appendChild(paragraph);
     inputfield.value = "";
 
-    // for the click functionality over the item clicked
+    // for the click functionality over the item clicked in the list
     // Feel free to modify it for the custome designs
     paragraph.addEventListener('click', function(){
         paragraph.classList.add('paragraph-complete');
