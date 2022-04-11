@@ -2,7 +2,7 @@ let addtobutton = document.getElementById('addtodo');
 let todocontainer = document.getElementById('todocontainer');
 let inputfield = document.getElementById('inputfield');
 
-// generating styles as per the functionality
+// generating styles as per the functionality provided in the application
 addtobutton.addEventListener('click', function(){
     var paragraph = document.createElement('p');
     paragraph.classList.add('paragraph-styling');
