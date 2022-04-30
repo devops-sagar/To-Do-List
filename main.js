@@ -11,13 +11,13 @@ addtobutton.addEventListener('click', function(){
     inputfield.value = "";
 
     // for the click functionality over the item clicked in the list
-    // Feel free to modify it for the custome designs in different brnach
+    // Feel free to modify it for the custome designs in different brnach...
     paragraph.addEventListener('click', function(){
         paragraph.classList.add('paragraph-complete');
     })
 
     // for the double click functionality for the item to remove
-    // feel free to modify it as per the custome designs in different branch
+    // feel free to modify it as per the custome designs in different branch...
     paragraph.addEventListener('dblclick', function(){
         todocontainer.removeChild(paragraph);
     })
